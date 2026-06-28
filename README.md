@@ -6,20 +6,32 @@ Designed with **Apple's Human Interface Guidelines (HIG)** in mind—featuring f
 
 ## Features
 
-- **Fluid Morphing**: Smoothly transitions from a wide button to a compact "success" circle or square.
+- **Fluid Morphing**: Smoothly transitions from a wide button to a compact "success" circle.
 - **Spring-Based Animation**: Uses custom spring values for a tactile, high-quality feel.
-- **State-Driven UI**: Automatically handles transitions between `idle`, `loading`, and `completed` states.
+- **State-Driven UI**: Automatically handles transitions between `idle`, `processing`, and `completed` states.
 - **Minimalist Design**: Clean typography and subtle shadows that fit into any modern iOS app.
-- **Customizable**: Easy to adjust colors, icons, labels, and animation durations.
+- **Haptic Feedback**: Built-in support for tactile feedback on success.
 
 ## Installation
 
-Simply copy the `MorphingButton.swift` file into your Xcode project.
+### Option 1: Swift Package Manager (SPM)
+
+Add the following URL to your project in Xcode (**File > Add Packages...**):
+
+```text
+https://github.com/xklavier/swiftui-morphing-button.git
+```
+
+### Option 2: Direct Import (Copy-Paste)
+
+1. Navigate to `Sources/MorphingButton/` in this repository.
+2. Copy `MorphingButton.swift` into your Xcode project.
 
 ## Usage
 
 ```swift
 import SwiftUI
+import MorphingButton // Only needed if using SPM
 
 struct MyView: View {
     var body: some View {
