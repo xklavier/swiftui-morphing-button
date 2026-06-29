@@ -2,6 +2,8 @@
 
 A polished, minimalist SwiftUI component that seamlessly transforms its shape and content when tapped. Perfect for "Add to Cart", "Subscribe", or "Download" actions where providing visual feedback of success is key.
 
+<video src="assets/demo.mp4" width="100%" autoplay loop muted playsinline></video>
+
 Designed with **Apple's Human Interface Guidelines (HIG)** in mind—featuring fluid spring animations, haptic-ready states, and a clean aesthetic.
 
 ## Features
