@@ -16,6 +16,11 @@ Designed with **Apple's Human Interface Guidelines (HIG)** in mind—featuring f
 - **Minimalist Design**: Clean typography and subtle shadows that fit into any modern iOS app.
 - **Haptic Feedback**: Built-in support for tactile feedback on success.
 
+## Requirements
+
+- **iOS 15.0+**
+- **Xcode 14.0+ (Swift 5.7+)**
+
 ## Installation
 
 ### Option 1: Swift Package Manager (SPM)
